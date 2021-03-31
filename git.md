@@ -131,7 +131,7 @@
 
 ### Git flow
 
-(resources/images/git/git-it.png)
+![Git-Flow](resources/images/git/git-flow.jpg)
 
 ### `git add`
 
