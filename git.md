@@ -219,7 +219,7 @@
   > On branch master
   > Changes not staged for commit:
   	(use "git add <file>..." to update what will be committed)
-  	(use "git checkout -- <file>..." to discard changes in working directory)
+  	(use "git restore <file>..." to discard changes in working directory)
 
   	modified:   index.html
 
@@ -229,7 +229,7 @@
 - Now we can see a couple of new things going on:
   - Git shows 2 options:
     - We can add the changes we did to index.html to commit them: `(use "git add <file>..." to update what will be committed)`
-    - Also we can checkout the previous index.html version and discard the changes we did: `(use "git checkout -- <file>..." to discard changes in working directory)`
+    - Also we can restore the previous index.html version and discard the changes we did: `(use "git restore <file>..." to discard changes in working directory)`
   - Also now index.html is modified (`modified: index.html`) instead than a new file
 - Go ahead and add this changes
 - Commit the changes and create a new version
@@ -268,7 +268,7 @@
   > On branch master
   > Changes not staged for commit:
   	(use "git add/rm <file>..." to update what will be committed)
-  	(use "git checkout -- <file>..." to discard changes in working directory)
+  	(use "git restore <file>..." to discard changes in working directory)
 
   	deleted:    index.html
 
@@ -278,10 +278,10 @@
 - We can see that we deleted the file
 - Git shows 2 options
   - We can remove the file from git project by running git rm
-  - Or discard the changes running git checkout -- index.html
-- As we don't want to delete the file execute git checkout to get the previous version
+  - Or discard the changes running git restore index.html
+- As we don't want to delete the file execute git restore to get the previous version
   ```bash
-  git checkout -- index.html
+  git restore index.html
   ```
 - If we run git status we'll see that the deleted index.html message is no longer there
 
@@ -693,7 +693,7 @@
 - To sync again with the remote server we can fetch the latest changes
 
   ```bash
-  git fetch origin master
+  git pull origin master
 
   > remote: Counting objects: 3, done.
   > remote: Compressing objects: 100% (2/2), done.
