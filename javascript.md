@@ -2042,7 +2042,6 @@ constantVariable = otherValue;
   console.log(typeof name); // object
   ```
 
-- Using a null value it's going to be evaluated as an object and it will become true
 - When using null we'll have to add an extra validation
 
   **Example:**
