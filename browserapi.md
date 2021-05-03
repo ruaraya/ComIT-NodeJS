@@ -206,7 +206,7 @@
 
 ### Alert
 
-- The **Window.alert()** method displays an alert dialog with the optional specified content and an OK button
+- The **window.alert()** method displays an alert dialog with the optional specified content and an OK button
 - This method accepts a message parameter that will show to the user
 
   **Example:**
@@ -247,7 +247,7 @@
 
 ### Confirm
 
-- The **Window.confirm()** method displays a modal dialog with an optional message and two buttons, OK and Cancel
+- The **window.confirm()** method displays a modal dialog with an optional message and two buttons, OK and Cancel
 - This method accepts a string parameter that will show to the user
 - This method returns a `boolean` value
 - If the user press Ok we get `true` back
