@@ -847,7 +847,7 @@
 
 [Exercise 17](./exercises/browser/ex_17.md)
 
-### Has Attributes?
+### Has Attribute?
 
 - We can test if an element has an attribute with the `hasAttribute` method
 - This method accepts a string parameter with the attribute name
