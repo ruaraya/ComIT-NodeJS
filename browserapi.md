@@ -893,12 +893,12 @@
 - JS
 
   ```js
-  const element = document.querySelector('p');
-  const title = document.querySelector('h2');
+  const element = document.querySelector("p");
+  const title = document.querySelector("h2");
 
-  console.log(element.hasAttributes():); // true
+  console.log(element.hasAttributes()); // true
 
-  console.log(title.hasAttributes():); // false
+  console.log(title.hasAttributes()); // false
   ```
 
 - [MDN hasAttributes doc](https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttributes)
