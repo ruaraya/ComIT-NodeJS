@@ -851,7 +851,7 @@
 ## Express
 
 - Using express we'll be able to execute the following tasks:
-  - Handle any HTTP request (GET, POST, etc)
+  - Handle any HTTP request (GET, POST, PUT, PATCH, DELETE, etc)
   - Create and handle specific routes
   - Configure templating engines to create dynamic HTML
   - Configure and use express `middlewares` to add more features
