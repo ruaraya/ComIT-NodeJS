@@ -409,7 +409,7 @@
 - To get this value we use `req.params.id`
 - We could name this parameter with any name
 - Then we filter the superheroes array by id
-- And assighn the selected superhero to the `selectedSuperhero` variable
+- And assign the selected superhero to the `selectedSuperhero` variable
 - The only remainding thing to do is render the template using the selectedSuperhero data
 - Now we can call any this url http://localhost:3000/superheros/2 changing the id from 1 to 9
 - Our home page still has blue and violet links so update the css so it looks better
