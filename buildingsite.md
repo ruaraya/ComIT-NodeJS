@@ -432,7 +432,7 @@
   ```
   div.create-container
     form(action="/superheros",  method="post")
-      input(type="text", placeholder="suerhero name", required="required", name="superhero")
+      input(type="text", placeholder="superhero name", required="required", name="superhero")
       button Create
   ```
 - This code will transform in this HTML
@@ -442,7 +442,7 @@
     <form action="/superheros" method="post">
       <input
         type="text"
-        placeholder="suerhero name"
+        placeholder="superhero name"
         required="required"
         name="superhero"
       />
