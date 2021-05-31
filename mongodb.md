@@ -843,7 +843,9 @@
   const doc = { name: "CAPTAIN MARVEL", image: "captainmarvel.jpg" };
 
   collection.insertOne(doc, (err, result) => {
-    callback(result);
+    client.close();
+    console.log(result.ops);
+    res.status(200).send("Ok");
   });
   ```
 
@@ -857,7 +859,9 @@
   ];
 
   collection.insertMany(documents, (err, result) => {
-    callback(result);
+    client.close();
+    console.log(result.ops);
+    res.status(200).send("Ok");
   });
   ```
 
@@ -870,7 +874,9 @@
   const update = { $set: { power: 100 } };
 
   collection.updateOne(filter, update, (err, result) => {
-    callback(result);
+    client.close();
+    console.log(result.result);
+    res.status(200).send("Ok");
   });
   ```
 
@@ -881,7 +887,9 @@
   const update = { $set: { power: 100 } };
 
   collection.updateMany(doc, update, (err, result) => {
-    callback(result);
+    client.close();
+    console.log(result.result);
+    res.status(200).send("Ok");
   });
   ```
 
