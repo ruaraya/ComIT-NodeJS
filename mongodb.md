@@ -903,7 +903,9 @@
   const filter = { _id: ObjectID("5b07560bda15952ac0b33e6c") };
 
   collection.deleteOne(query, function (err, result) {
-    callback(result);
+    client.close();
+    console.log(result.deletedCount);
+    res.status(200).send("Ok");
   });
   ```
 
