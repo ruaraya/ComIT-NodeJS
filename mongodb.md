@@ -809,7 +809,6 @@
     collection.find({}).toArray((error, documents) => {
       client.close();
       console.log(documents);
-      res.status(200).send("Ok");
     });
   });
   ```
