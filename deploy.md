@@ -126,8 +126,8 @@
 - Click **Build a Cluster** button in the Clusters Overview section.
   ![Create a cluster on MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_CreateCluster.jpg)
 - This will open the _Create New Cluster_ screen.
-  ![Choose a cloud provider when using MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_ChooseFreeTier.jpg)
   - Select **Shared Clusters** which is a FREE tier.
+    ![Choose a cloud provider when using MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_ChooseFreeTier.jpg)
     ![Choose a free tier](resources/images/deploy/MongoDB_Atlas_-_ChooseProviderRegion.jpg)
   - Select any provider from the _Cloud Provider & Region_ section. Different providers offer different regions.
   - Click the **Create Cluster** button (creation of the cluster will take some minutes) ![Creating Cluster](resources/images/deploy/MongoDB_Atlas_-_CreatingCluster.jpg).
