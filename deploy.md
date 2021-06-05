@@ -158,9 +158,8 @@
   - Click the **Connect Your Application** option.
 - This will open the Connect screen.
   ![Choose the Short SRV connection when settinup a connection on MongoDB Atalas.](resources/images/deploy/MongoDB_Atlas_-_ConnectForShortSRV.jpg)
-  - Click the **Short SRV connection string** option to copy the connection string.
-- This will open the connection string URL.
-  ![Copy the Short SRV connection string when setting up a connection on MongoDB Atlas](resources/images/deploy/MongoDB_Atlas_-_CopyShortSRV.jpg)
+  - In **Driver** select: "Node.js"
+  - In **Version** select: "3.6 or later"
   - Choose **Copy** button to copy the string.
   - Save this string somewhere safe.
   - Update the password with your users password.
