@@ -130,11 +130,11 @@
   - Select any provider from the _Cloud Provider & Region_ section. Different providers offer different regions.
   - Click the **Create Cluster** button (creation of the cluster will take some minutes) ![Creating Cluster](resources/images/deploy/MongoDB_Atlas_-_CreatingCluster.jpg).
 - You will return to the _Cluster Overview_ screen.
-  ![Setup a collection on MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_CreateCollection.jpg)
   - Click the **Collections** button.
+    ![Setup a collection on MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_CreateCollection.jpg)
 - This will open the _Collections_ section.
-  ![Create a database on MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_CreateDatabase.jpg)
   - Click the **Add My Own Data** button.
+    ![Create a database on MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_CreateDatabase.jpg)
 - This will open the _Create Database_ screen.
   ![Details during database creation on MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_DatabaseDetails.jpg)
   - Enter the name for the new database as `public`.
