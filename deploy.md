@@ -119,7 +119,9 @@
 
 - Create an organization ![Create an organization.](resources/images/deploy/MongoDB_Atlas_-_CreateOrganization.jpg)
 
-- Choose a **Name for you organization** and then select the option **MongoDB Atlas** ![Create a name for your organization.](resources/images/deploy/MongoDB_Atlas_-_SelectMongoDBAtlas.jpg)
+- Choose a **Name for your organization** and then select the option **MongoDB Atlas** ![Create a name for your organization.](resources/images/deploy/MongoDB_Atlas_-_SelectMongoDBAtlas.jpg)
+
+- Choose a **Name for your project** ![Create a name for your project.](resources/images/deploy/MongoDB_Atlas_-_CreateProject.jpg)
 
 - Click **Build a Cluster** button in the Clusters Overview section.
   ![Create a cluster on MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_CreateCluster.jpg)
