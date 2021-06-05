@@ -134,7 +134,7 @@
   - Click the **Collections** button.
 - This will open the _Collections_ section.
   ![Create a database on MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_CreateDatabase.jpg)
-  - Click the **Create Database** button.
+  - Click the **Add My Own Data** button.
 - This will open the _Create Database_ screen.
   ![Details during database creation on MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_DatabaseDetails.jpg)
   - Enter the name for the new database as `public`.
