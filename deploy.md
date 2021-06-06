@@ -130,7 +130,7 @@
     ![Choose a cloud provider when using MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_ChooseFreeTier.jpg)
   - Select any provider from the _Cloud Provider & Region_ section. Different providers offer different regions.
     ![Choose a free tier](resources/images/deploy/MongoDB_Atlas_-_ChooseProviderRegion.jpg)
-  - Click the **Create Cluster** button (creation of the cluster will take some minutes) ![Creating Cluster](resources/images/deploy/MongoDB_Atlas_-_CreatingCluster.jpg).
+  - Click the **Createa new Cluster** button (creation of the cluster will take some minutes) ![Creating Cluster](resources/images/deploy/MongoDB_Atlas_-_CreatingCluster.jpg).
 - You will return to the _Cluster Overview_ screen.
   - Click the **Collections** button.
     ![Setup a collection on MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_CreateCollection.jpg)
@@ -152,6 +152,7 @@
   - Click the **Add a Different IP Address** button, enter `0.0.0.0/0` for the IP Address and click **Add IP Address** button.
     - Note: It is a best practice to limit the IP addresses that can connect to your database and other resources. Here we allow a connection from anywhere because we don't know where the request will come from after deployment.
   - Enter a username and password and click **Create MongoDB User** button.
+    ![Create username and password.](resources/images/deploy/MongoDB_Atlas_-_CreateUsernameAndPassword.jpg)
     - Note: Avoid using special characters in your MongoDB user password as mongoose may not parse the connection string properly.
   - If you have completed the 2 previous steps, the button **Choose a connection method** will turn green.
   - Click the **Choose a connection method** button.
