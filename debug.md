@@ -18,7 +18,6 @@
 ### Express Application
 
 - Use VS Code's Debug tools
-  ![VS Code Debug](https://code.visualstudio.com/assets/docs/nodejs/nodejs-debugging/loaded-scripts-explorer.gif)
 - Select the node file you want to run. ie. `index.js`
 - Add a configuration for the application, by clicking in **create a launch-json file** link
 - It should autofill with the details of the project and look like the following:
@@ -52,7 +51,6 @@
 - Open the file containing the line of code you want to break on.
 - Go the line of code.
 - To the left of the line of code is the line number column. Click on it. A blue icon appears on top of the line number column.
-  ![A line-of-code breakpoint.](https://developers.google.com/web/tools/chrome-devtools/javascript/imgs/loc-breakpoint.png)
 
 #### Exercises
 
