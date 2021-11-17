@@ -392,7 +392,7 @@
 - index.js
 
   ```js
-  app.get("/superheros/:id", (req, res) => {
+  app.get("/superheroes/:id", (req, res) => {
     const selectedId = req.params.id;
 
     let selectedSuperhero = superheroes.filter((superhero) => {
