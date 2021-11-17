@@ -69,6 +69,7 @@
 - index.pug
   ```
   doctype html
+  html
     head
       title Simple site using Node.js, Express and Pug
     body
