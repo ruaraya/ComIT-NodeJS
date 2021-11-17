@@ -396,7 +396,7 @@
     const selectedId = req.params.id;
 
     let selectedSuperhero = superheroes.filter((superhero) => {
-      return superhero.id === selectedId;
+      return superhero.id === +selectedId;
     });
 
     selectedSuperhero = selectedSuperhero[0];
