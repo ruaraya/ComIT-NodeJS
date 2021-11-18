@@ -22,7 +22,7 @@
   npm init -y
   ```
 
-- After creating the folder lets install pug, express and [nodemon](https://github.com/remy/nodemon)
+- Now lets install pug, express and [nodemon](https://github.com/remy/nodemon)
 
   ```
   npm install express pug nodemon
