@@ -16,6 +16,12 @@
   cd node-site-example
   ```
 
+- Initialize the project with:
+
+  ```
+  npm init -y
+  ```
+
 - After creating the folder lets install pug, express and [nodemon](https://github.com/remy/nodemon)
 
   ```
