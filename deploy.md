@@ -138,11 +138,9 @@
   - Add access to all IP addresses.
     ![Add IP address.](resources/images/deploy/MongoDB_Atlas_-_AddIPAddress.jpg)
 
-  - Click the **Create a new Cluster** button (creation of the cluster will take some minutes) ![Creating Cluster](resources/images/deploy/MongoDB_Atlas_-_CreatingCluster.jpg).
-
-- You will return to the _Cluster Overview_ screen.
-  - Click the **Collections** button.
-    ![Setup a collection on MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_CreateCollection.jpg)
+- You will return to the _Database deployment_ screen.
+  - Click the **Browse Collections** button.
+    ![Setup a collection on MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_BrowseCollections.jpg)
 - This will open the _Collections_ section.
   - Click the **Add My Own Data** button.
     ![Create a database on MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_CreateDatabase.jpg)
