@@ -125,8 +125,8 @@
 
 - Choose a **Name for your project** ![Create a name for your project.](resources/images/deploy/MongoDB_Atlas_-_CreateProject.jpg)
 
-- Click **Build a Cluster** button in the Clusters Overview section.
-  ![Create a cluster on MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_CreateCluster.jpg)
+- Click **Build a Database** button in the Databases Overview section.
+  ![Create a database on MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_CreateDatabase.jpg)
 - This will open the _Create New Cluster_ screen.
   - Select **Shared Clusters** which is a FREE tier.
     ![Choose a cloud provider when using MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_ChooseFreeTier.jpg)
