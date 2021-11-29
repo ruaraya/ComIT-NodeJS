@@ -128,11 +128,18 @@
 - Click **Build a Database** button in the Databases Overview section.
   ![Create a database on MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_CreateDatabase.jpg)
 - This will open the _Create New Cluster_ screen.
+
   - Select **Shared** which is a FREE tier.
     ![Choose a cloud provider when using MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_ChooseFreeTier.jpg)
   - Select any provider from the _Cloud Provider & Region_ section. Different providers offer different regions.
     ![Choose a free tier](resources/images/deploy/MongoDB_Atlas_-_ChooseProviderRegion.jpg)
-  - Click the **Createa new Cluster** button (creation of the cluster will take some minutes) ![Creating Cluster](resources/images/deploy/MongoDB_Atlas_-_CreatingCluster.jpg).
+  - Choose a username and password to access the Database.
+    ![Choose a username and password.](resources/images/deploy/MongoDB_Atlas_-_CreateUsernameAndPassword.jpg)
+  - Add access to all IP addresses.
+    ![Add IP address.](resources/images/deploy/MongoDB_Atlas_-_AddIPAddress.jpg)
+
+  - Click the **Create a new Cluster** button (creation of the cluster will take some minutes) ![Creating Cluster](resources/images/deploy/MongoDB_Atlas_-_CreatingCluster.jpg).
+
 - You will return to the _Cluster Overview_ screen.
   - Click the **Collections** button.
     ![Setup a collection on MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_CreateCollection.jpg)
