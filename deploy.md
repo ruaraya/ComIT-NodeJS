@@ -135,7 +135,7 @@
     ![Choose a free tier](resources/images/deploy/MongoDB_Atlas_-_ChooseProviderRegion.jpg)
   - Choose a username and password to access the Database.
     ![Choose a username and password.](resources/images/deploy/MongoDB_Atlas_-_CreateUsernameAndPassword.jpg)
-  - Add access to all IP addresses.
+  - Add access to all IP addresses by adding: 0.0.0.0/0.
     ![Add IP address.](resources/images/deploy/MongoDB_Atlas_-_AddIPAddress.jpg)
 
 - You will return to the _Database deployment_ screen.
