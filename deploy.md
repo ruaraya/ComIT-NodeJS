@@ -131,8 +131,10 @@
 
   - Select **Shared** which is a FREE tier.
     ![Choose a cloud provider when using MongoDB Atlas.](resources/images/deploy/MongoDB_Atlas_-_ChooseFreeTier.jpg)
+
   - Select any provider from the _Cloud Provider & Region_ section. Different providers offer different regions.
     ![Choose a free tier](resources/images/deploy/MongoDB_Atlas_-_ChooseProviderRegion.jpg)
+
   - Choose a username and password to access the Database.
     ![Choose a username and password.](resources/images/deploy/MongoDB_Atlas_-_CreateUsernameAndPassword.jpg)
   - Add access to all IP addresses by adding: 0.0.0.0/0.
